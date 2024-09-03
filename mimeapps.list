@@ -1,0 +1,23 @@
+[Default Applications]
+x-scheme-handler/http=userapp-Floorp-1LDUS2.desktop
+x-scheme-handler/https=userapp-Floorp-1LDUS2.desktop
+x-scheme-handler/chrome=userapp-Floorp-1LDUS2.desktop
+text/html=userapp-Floorp-1LDUS2.desktop
+application/x-extension-htm=userapp-Floorp-1LDUS2.desktop
+application/x-extension-html=userapp-Floorp-1LDUS2.desktop
+application/x-extension-shtml=userapp-Floorp-1LDUS2.desktop
+application/xhtml+xml=userapp-Floorp-1LDUS2.desktop
+application/x-extension-xhtml=userapp-Floorp-1LDUS2.desktop
+application/x-extension-xht=userapp-Floorp-1LDUS2.desktop
+
+[Added Associations]
+x-scheme-handler/http=userapp-Floorp-1LDUS2.desktop;
+x-scheme-handler/https=userapp-Floorp-1LDUS2.desktop;
+x-scheme-handler/chrome=userapp-Floorp-1LDUS2.desktop;
+text/html=userapp-Floorp-1LDUS2.desktop;
+application/x-extension-htm=userapp-Floorp-1LDUS2.desktop;
+application/x-extension-html=userapp-Floorp-1LDUS2.desktop;
+application/x-extension-shtml=userapp-Floorp-1LDUS2.desktop;
+application/xhtml+xml=userapp-Floorp-1LDUS2.desktop;
+application/x-extension-xhtml=userapp-Floorp-1LDUS2.desktop;
+application/x-extension-xht=userapp-Floorp-1LDUS2.desktop;
