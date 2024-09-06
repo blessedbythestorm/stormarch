@@ -1,0 +1,11 @@
+[flavor]
+use = "kanagawa"
+
+[manager]
+ratio = [0, 5, 4]
+show_hidden = true
+
+[opener]
+edit = [
+	{ run = 'hx "$@"', block = true, for = "unix" },
+]

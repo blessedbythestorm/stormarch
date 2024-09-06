@@ -1,1 +1,6 @@
+[language-server.hyprls]
+command = "hyprls"
 
+[[language]]
+name = "hyprlang"
+language-servers = ["hyprls"]
