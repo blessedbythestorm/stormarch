@@ -8,6 +8,7 @@ config.enable_scroll_bar = true
 config.color_scheme = 'Kanagawa Dragon (Gogh)'
 config.colors = {
   -- background = 'rgba(30, 30, 30, 0.5)',
+  scrollbar_thumb = 'rgba(100, 100, 100, 0.5)'
 }
 
 config.window_padding = {
