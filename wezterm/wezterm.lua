@@ -16,6 +16,7 @@ config.colors = {
 }
 
 config.window_padding = {
+  top = 10;
   right = 10,
 }
 

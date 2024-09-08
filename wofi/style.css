@@ -1,23 +1,27 @@
 #window {
-  font-family: 'CaskaydiaCove Nerd Font';
-  margin: 0px;
-  background-color: #111111;
+  font-family: 'JetBrainsMono Nerd Font';
+  background-color: transparent;
 }
 
 #input {
   margin: 10px;
-  border: 1px solid #87a987;
+  border: 1px solid #c4b28a;
   color: #ebdbb2;
   background-color: None,
+}
+
+#input:selected {
+  border: 1px solid #654321;
+}
+
+#outer-box {
+  background-color: #1C2229;
 }
 
 #inner-box {
   margin: 10px;
   padding: 10px;
-  background-color: #18161644;
 }
-
-#outer-box {}
 
 #scroll {
   margin: 0px;
@@ -31,8 +35,12 @@
   color: #c4b28a;
 }
 
-#expander>list>#entry {
-  margin: 10px;
+#input:focused {
+  border: 2px solid #87a987;
+}
+
+#entry:image {
+  padding: 100px;
 }
 
 #entry:selected {
