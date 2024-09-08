@@ -3,3 +3,6 @@ pulse/
 mimeapps.list
 keepassxc/
 pass/
+.mono/keypairs/
+dconf/
+gh/
