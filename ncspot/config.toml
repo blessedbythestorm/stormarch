@@ -4,7 +4,7 @@ use_nerdfont = true
 bitrate = 320
 
 [theme]
-background = "#181616"
+background = "#0D0C0C"
 primary = "#C4B28A"
 secondary = "#87A987"
 title = "#8992A7"
@@ -12,7 +12,7 @@ playing = "#87A987"
 playing_selected = "#C4746E"
 playing_bg = "#393836"
 highlight = "#8BA4B0"
-highlight_bg = "#393836"
+highlight_bg = "#181616"
 error = "#C4746E"
 error_bg = "#0D0C0C"
 statusbar = "#C4B28A"
