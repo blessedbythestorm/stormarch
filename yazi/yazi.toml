@@ -1,6 +1,3 @@
-[flavor]
-use = "kanagawa"
-
 [manager]
 ratio = [0, 5, 4]
 show_hidden = true

@@ -1,0 +1,8 @@
+show=drun
+mode=drun
+allow_images=true
+width=20%
+key_expand=Tab
+term=wezterm
+columns=2
+no_actions=true
