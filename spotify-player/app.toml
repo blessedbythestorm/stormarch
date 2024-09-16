@@ -1,0 +1,41 @@
+theme="stormarch"
+client_id = "65b708073fc0480ea92a077233ca87bd"
+client_id_command = "pass spotify/client_id"
+client_port = 8888
+playback_format = "  {status}   {track}\n      {artists}\n      {album}\n\n      {metadata}"
+notify_format = { summary = "{track} • {artists}", body = "{album}" }
+notify_timeout_in_secs = 0
+tracks_playback_limit = 50
+app_refresh_duration_in_ms = 32
+playback_refresh_duration_in_ms = 0
+
+play_icon = ""
+pause_icon = ""
+liked_icon = "♥"
+border_type = "Plain"
+progress_bar_type = "Rectangle"
+
+enable_cover_image_cache = true
+default_device = "spotify-player"
+seek_duration_secs = 5
+page_size_in_rows = 40
+
+playback_window_position = "Top"
+playback_window_width = 15
+playback_window_height = 25
+cover_img_length = 30
+cover_img_width = 13
+
+[device]
+name = "spotify-player"
+device_type = "computer"
+volume = 100
+bitrate = 320
+audio_cache = false
+normalization = true
+autoplay = false
+
+[layout]
+library = { playlist_percent = 30, album_percent = 0 }
+playback_window_position = "Bottom"
+playback_window_height = 28

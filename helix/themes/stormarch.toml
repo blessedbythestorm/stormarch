@@ -4,3 +4,6 @@ inherits = "kanagawa-dragon"
 "ui.background" = { fg = "dragonWhite", bg = "dragonBlack0" }
 "ui.gutter" = {}
 "ui.linenr" = {}
+"ui.bufferline" = { fg = "dragonAsh", bg = "dragonBlack0" }
+"ui.bufferline.background" = "dragonAsh"
+"ui.bufferline.active" = { fg = "dragonGreen", bg = "dragonBlack4" }

@@ -1,0 +1,20 @@
+[[themes]]
+name = "stormarch"
+
+[themes.palette]
+foreground = "#c4b28a"
+
+[themes.component_style]
+block_title = { fg = "#8992A7"  }
+border = { fg = "#1D1C19" }
+playback_status = { fg = "Red", modifiers = ["Bold"] }
+playback_track = { fg = "Blue", modifiers = ["Bold"] }
+playback_artists = { fg = "Blue", modifiers = ["Bold"] }
+playback_album = { fg = "Blue" }
+playback_metadata = { fg = "Yellow" }
+playback_progress_bar = { bg = "#1D1C19", fg = "#87a987" }
+current_playing = { fg = "Blue", modifiers = ["Bold"] }
+page_desc = { fg = "BrightBlack", modifiers = ["Bold"] }
+playlist_desc = { fg = "BrightBlack", modifiers = ["Dim"] }
+table_header = { fg = "#8992A7" }
+selection = { fg = "Green", bg = "#12120f", modifiers = ["Bold"] }

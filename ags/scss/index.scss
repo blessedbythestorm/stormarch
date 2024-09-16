@@ -1,0 +1,14 @@
+@import 'palette';
+
+* {
+  font-family: 'JetBrainsMono Nerd Font';
+}
+
+.window {
+  background-color: rgba($dragonBlack0, .8);
+}
+
+.time {
+  color: $dragonBlue2;
+  padding-right: 2em;
+}

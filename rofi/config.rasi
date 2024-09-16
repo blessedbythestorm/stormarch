@@ -1,0 +1,173 @@
+configuration {
+	modes: [ drun ];
+	show-icons: true;
+	drun {
+		scan-desktop: true;
+		parse-user: true;
+		parse-system: true;
+	}
+  	timeout {
+    	action: "kb-cancel";
+     	delay:  0;
+  	}
+  	filebrowser {
+      	directories-first: true;
+      	sorting-method:    "name";
+  	}
+}
+
+* {
+	background: transparent;
+    
+    dragonBlack0: #0d0c0c;
+    dragonBlack1: #12120faa;
+    dragonBlack2: #1D1C1944;
+    dragonBlack3: #181616;
+    dragonBlack4: #28272744;
+    dragonBlack5: #393836aa;
+    dragonBlack4-lt: #282727aa;
+    dragonBlack6: #625e5a44;
+    
+    dragonWhite: #c5c9c5;
+    dragonGreen: #87a987;
+    dragonGreen2: #8a9a7b;
+    dragonPink: #a292a3;
+    dragonOrange: #b6927b;
+    dragonOrange2: #b98d7b;
+    dragonGray: #a6a69c;
+    dragonGray2: #9e9b93;
+    dragonGray3: #7a8382;
+    dragonBlue2: #8ba4b044;
+    dragonViolet: #8992a7;
+    dragonRed: #c4746e;
+    dragonAqua: #8ea4a2;
+    dragonAsh: #737c73;
+    dragonTeal: #949fb5;
+    dragonYellow: #c4b28a;
+}
+
+
+window {
+    height:                      520px;
+    width:                       710px;
+    transparency:                "real";
+    fullscreen:                  false;
+    enabled:                     true;
+    cursor:                      "default";
+    spacing:                     0px;
+    border:                      4px;
+    border-radius:               10px;
+    border-color:                @dragonBlack2;
+    background-color:            #18161644;
+    padding:                     5px;
+    font: 'JetBrainsMono Nerd Font 10';
+}
+
+mainbox {
+    enabled:                     true;
+    spacing:                     0px;
+    orientation:                 horizontal;
+    children:                    [ search, listbox ];
+    background-color:            @dragonBlack1;
+    width:                       100%;
+    border-color:                @dragonBlack5;
+    border:                      4px;
+    border-radius:               10px;
+}
+
+search {
+    enabled:                     true;
+    spacing:                     0em;
+    orientation:                 vertical;
+    children:                    [ inputbar ];
+    background-image:            url("~/images/wallpapers/varda.jpg", height);
+    background-color:            @dragonBlack2;
+    width:                       40%;
+    border-radius:               10px;
+}
+
+inputbar {
+    enabled:                     true;
+    margin:                      20px;
+    padding: 10px;
+    background-color:            @dragonBlack4-lt;
+    children:                    [entry];
+    border-radius: 10px;
+    border-color: @dragonBlue2;
+    border: 2px;
+}
+
+entry {
+    placeholder:                 "summon";
+    text-color:                  @dragonGreen;
+    placeholder-color:           @dragonGreen;
+}
+
+listbox {
+    padding:                     10px;
+    children:                    [ "listview" ];
+    background-color:            transparent;
+    width:                       60%;
+}
+
+listview {
+    enabled:                     true;
+    columns:                     1;
+    cycle:                       true;
+    dynamic:                     false;
+    scrollbar:                   true;
+    layout:                      vertical;
+    reverse:                     false;
+    fixed-columns:               true;
+    cursor:                      "default";
+    background-color:            transparent;
+    border-radius:               5px;
+    border-color:                transparent;
+    spacing:                     3px;
+}
+
+scrollbar {
+    handle-color:                @dragonBlue2;
+    background-color:            @dragonBlack1;
+    handle-width:                4px;
+}
+
+element {
+    enabled:                     true;
+    cursor:                      pointer;
+    text-color:                  @text;
+    border-radius:               5px;
+    background-color:            @dragonBlack5;
+    border-color:                @dragonBlack1;
+    border:                      1px;
+    padding:                     5px;
+}
+
+element selected.normal {
+    background-color:            @dragonBlack1;
+    text-color:                  @dragonGreen;
+    border-color:                @dragonViolet;
+}
+
+element normal.normal {
+    background-color:            @dragonBlack1;
+    text-color:                  @dragonYellow;
+    border-color:                @dragonBlack6;
+}
+
+element alternate.normal {
+    background-color:            @dragonBlack1;
+    text-color:                  @dragonYellow;
+    border-color:                @dragonBlack6;
+}
+
+element-icon {
+    padding:                     2px;
+    size:                        16px;
+    background-color:            transparent;
+}
+
+element-text {
+    background-color:            transparent;
+    padding:                     5px;
+}

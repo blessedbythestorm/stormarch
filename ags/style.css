@@ -1,0 +1,14 @@
+* {
+  font-family: "JetBrainsMono Nerd Font";
+}
+
+.window {
+  background-color: rgba(13, 12, 12, 0.8);
+}
+
+.time {
+  color: #8ba4b0;
+  padding-right: 2em;
+}
+
+/*# sourceMappingURL=style.css.map */
